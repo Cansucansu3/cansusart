@@ -12,58 +12,6 @@ body {
   background-color: #49568e;
 }
 
-/* Sticky Navbar */
-.nav {
-  position: fixed;
-  background-color: rgba(0, 0, 0, 0.1);
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000; /* Ensure navbar is on top */
-  transition: all 0.3s ease-in-out;
-}
-
-.nav .box {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
-  transition: all 0.3s ease-in-out;
-}
-
-.nav ul {
-  display: flex;
-  list-style-type: none;
-  align-items: center;
-  justify-content: center;
-}
-
-.nav a {
-  color: #fff;
-  text-decoration: none;
-  padding: 7px 15px;
-  transition: all 0.3s ease-in-out;
-}
-
-.nav.active {
-  background-color: #fff;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-}
-
-.nav.active a {
-  color: #222;
-}
-
-.nav.active .box {
-  padding: 10px 0;
-}
-
-.nav a.current,
-.nav a:hover {
-  color: #7385ef;
-  font-weight: bold;
-}
-
 /* Container Styles */
 .container {
   position: relative;

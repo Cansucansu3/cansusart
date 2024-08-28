@@ -1,13 +1,13 @@
 cards = [
   {
     id: "1",
-    img_url: "./images/ARIEL4.png",
+    img_url: "./assets/image/ARIELwb.png",
     description:
       "An ethereal reimagining of Princess Ariel, this artwork reveals her darker side with subtle creature-like features and gold jewelry, reflecting a haunting obsession with human treasures.",
   },
   {
     id: "3",
-    img_url: "./images/girls4.jpg",
+    img_url: "./assets/image/girlwb.jpg",
     description:
       "A contemplative digital portrait capturing the quiet strength and introspection of a young girl with braided hair.",
   },
@@ -40,13 +40,13 @@ cards = [
 cards2 = [
   {
     id: "10",
-    img_url: "./images/KIRI.jpg",
+    img_url: "./assets/image/KIRIwb.jpg",
     description:
       "A digital painting of an older Kiri from 'Avatar: The Way of Water,' capturing her ethereal connection with Eywa.",
   },
   {
     id: "9",
-    img_url: "./images/44_orig(1).jpg",
+    img_url: "./assets/image/fishIwb.jpg",
     description: "Fish painting with oil pastels",
   },
   {
@@ -79,12 +79,6 @@ cards2 = [
     img_url:
       "https://assets-prd.ignimgs.com/2022/02/18/house-of-the-dragon-button-02-1645217002655.jpg",
     description: "House of the dragon season-4",
-  },
-  {
-    id: "16",
-    img_url:
-      "https://images.ctfassets.net/nwksj2ft7iku/4ipCYMuMkJE6F5WV0s2ryc/f48f4caea5d16f0a5362db73e9a10b4a/240513_GOTC_TargaryenSigil_768x480.png",
-    description: "House of the dragon season-5",
   },
 ];
 
@@ -271,7 +265,7 @@ function setAnimation() {
 }
 // !!!Animation
 
-//sticky navbar
+/*sticky navbar
 const nav = document.querySelector(".nav");
 window.addEventListener("scroll", fixNav);
 
@@ -282,4 +276,4 @@ function fixNav() {
     nav.classList.remove("active");
   }
 }
-//sticky navbar ends
+  */

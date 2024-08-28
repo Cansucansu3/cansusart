@@ -11,14 +11,15 @@ body {
   background-color: #49568e;
 }
 
-/* Sticky Navbar */
-.nav {
+/* Sticky Navbar  */
+
+/* .nav {
   position: fixed;
   background-color: rgba(0, 0, 0, 0.1);
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000; /* Ensure navbar is on top */
+  z-index: 1000; Ensure navbar is on top 
   transition: all 0.3s ease-in-out;
 }
 
@@ -61,7 +62,7 @@ body {
 .nav a:hover {
   color: #7385ef;
   font-weight: bold;
-}
+} */
 
 .port {
   background-image: url(assets/image/portfolio1.1.png);
@@ -110,10 +111,10 @@ body {
 }
 
 .parallax {
-  background: url(assets/image/44orig.jpg) no-repeat fixed 5%;
+  background: url(./assets/image/fishwb.jpg) no-repeat fixed 50%;
 }
 
 .parallax {
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 1%;
 }
