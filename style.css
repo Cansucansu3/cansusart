@@ -1,4 +1,5 @@
 * {
+  font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,6 +10,11 @@ body {
   color: #222;
   padding-top: 67px;
   background-color: #49568e;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
 }
 
 .port {
@@ -16,7 +22,7 @@ body {
   background-repeat: none;
   background-size: cover;
   background-position: bottom center;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   max-width: 100%;
   color: #fff;
@@ -30,12 +36,17 @@ body {
 }
 
 .portcontent h1 {
-  font-size: 150%;
+  font-size: 30px;
   margin: 0px 0;
   position: relative;
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-weight: 500;
+}
+
+.portcontent h1 strong {
+  font-weight: 700;
 }
 
 .portcontent h2 {
@@ -45,7 +56,6 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 20px;
 }
 
 .portcontent p {
@@ -89,7 +99,7 @@ body {
   border-radius: 7px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 /* Hover effect */
 .learn-more-btn:hover {
@@ -100,12 +110,13 @@ body {
 /*image containers*/
 .cont {
   width: 100%;
-  height: 100vh;
+  height: 620px;
   display: flex;
-  padding: 100px;
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   justify-content: center;
+
+  margin-top: 150px;
 }
 
 .img-cont {
@@ -115,8 +126,9 @@ body {
 
 .image {
   position: relative;
-  width: 500px;
   overflow: hidden;
+  width: 40vw;
+  height: 60vh;
 }
 
 img {
@@ -157,29 +169,90 @@ img {
   color: #a1a1a1;
 }
 
-.btn-container2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  padding-top: 10px;
-}
-
 .contact-btn {
-  background-color: #ffffff00;
+  background-color: transparent;
   color: white;
   border: none; /* Removes default border */
   padding: 10px 20px; /* Adds padding inside the button */
-  position: absolute;
-  right: 800px;
   font-size: 16px;
   border-radius: 7px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease-in-out;
   margin-bottom: 100px;
+  width: 200px;
+  align-self: center;
 }
 /* Hover effect */
 .contact-btn:hover {
   background-color: #ffffff;
   color: #373a77;
+}
+
+/* 2560 gelecek */
+@media screen and (min-width: 2560px) {
+}
+
+@media screen and (max-width: 1024px) {
+  .port {
+    height: 60vw;
+  }
+}
+
+/* 768 gelecek */
+@media screen and (max-width: 768px) {
+  .img-cont {
+    flex-direction: column;
+  }
+
+  .image {
+    width: 70vw;
+    height: 70vw;
+  }
+
+  .parallax {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .portcontent p {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+/* 425 gelecek */
+@media screen and (max-width: 425px) {
+  .parallax {
+    padding-top: 7%;
+    padding-bottom: 7%;
+  }
+
+  .portcontent p {
+    font-size: 16px;
+  }
+}
+
+/* 320 gelecek */
+@media screen and (max-width: 320px) {
+  .content h1 {
+    font-size: 18px;
+  }
+
+  .content p {
+    font-size: 15px;
+  }
+
+  .parallax {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .portcontent p {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .cont {
+    margin-top: 50px;
+  }
 }

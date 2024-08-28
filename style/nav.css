@@ -48,7 +48,7 @@ nav a {
   color: #fff;
   text-decoration: none;
   padding: 7px 15px;
-  transition: all 0.3s ease-in-out;
+  font-weight: 500;
 
   height: 100%;
   display: flex;
@@ -79,5 +79,137 @@ nav.active .box {
 nav a.current,
 nav a:hover {
   color: #7385ef;
-  font-weight: bold;
+  font-weight: 600;
+}
+
+/* mobile nav burdan başlıyor */
+
+.mobile-nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  height: 100vh;
+  width: 260px;
+  background-color: #dbdde6da;
+  position: fixed;
+  top: 0;
+  right: -260px;
+  z-index: 100;
+  padding: 72px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.mobile-nav.active ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  height: 100vh;
+  width: 260px;
+  background-color: #dbdde6da;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  padding: 72px 0;
+}
+
+.mobile-nav ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  margin: 3px 0;
+  width: 100%;
+  text-align: left;
+}
+
+.mobile-nav ul li .hr {
+  width: 100%;
+  height: 2px;
+  border-radius: 50px;
+  background: linear-gradient(
+    90deg,
+    rgba(115, 134, 239, 0.2),
+    rgb(115, 133, 239),
+    rgba(115, 134, 239, 0.2)
+  );
+  /* background-color: #fff; */
+  transition: background 1s ease-in-out;
+  z-index: 100;
+  /* margin: 10px 0; */
+}
+
+.mobile-nav ul li:hover .hr {
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgb(115, 133, 239),
+    rgb(255, 255, 255)
+  );
+}
+
+.mobile-nav ul li a {
+  color: #7385ef;
+  text-decoration: none;
+  padding: 0px 15px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100px;
+  font-weight: 500;
+}
+
+.mobile-nav ul li a.current,
+.mobile-nav ul li a:hover {
+  color: #7385ef;
+  font-weight: 600;
+}
+
+.toggle-btn {
+  z-index: 200;
+}
+
+/* https://www.svgrepo.com/vectors/menu/ */
+
+.icon {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+}
+
+.icon:focus {
+  outline: 0; /*Removes the default focus outline when the icon is focused (e.g., when clicked or navigated to via keyboard).*/
+}
+
+.icon .line {
+  background-color: #ffffff;
+  height: 2px;
+  width: 20px;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  transition: transform 0.6s linear;
+}
+
+.icon .line2 {
+  top: auto;
+  bottom: 10px;
+}
+
+nav.active .icon .line1 {
+  transform: rotate(-405deg) translateY(5.5px);
+}
+
+nav.active .icon .line2 {
+  transform: rotate(405deg) translateY(-5.5px);
 }
