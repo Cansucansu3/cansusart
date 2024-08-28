@@ -1,13 +1,13 @@
 cards = [
   {
     id: "1",
-    img_url: "./assets/image/ARIELwb.png",
+    img_url: "../../assets/image/ARIELwb.png",
     description:
       "An ethereal reimagining of Princess Ariel, this artwork reveals her darker side with subtle creature-like features and gold jewelry, reflecting a haunting obsession with human treasures.",
   },
   {
     id: "3",
-    img_url: "./assets/image/girlwb.jpg",
+    img_url: "../../assets/image/girlwb.jpg",
     description:
       "A contemplative digital portrait capturing the quiet strength and introspection of a young girl with braided hair.",
   },
@@ -40,13 +40,13 @@ cards = [
 cards2 = [
   {
     id: "10",
-    img_url: "./assets/image/KIRIwb.jpg",
+    img_url: "../../assets/image/KIRIwb.jpg",
     description:
       "A digital painting of an older Kiri from 'Avatar: The Way of Water,' capturing her ethereal connection with Eywa.",
   },
   {
     id: "9",
-    img_url: "./assets/image/fishIwb.jpg",
+    img_url: "../../assets/image/fishwb.jpg",
     description: "Fish painting with oil pastels",
   },
   {
@@ -73,12 +73,6 @@ cards2 = [
       "https://www.thenews.com.pk/assets/uploads/updates/2023-11-02/1125179_843973_HBO_updates.jpg",
     description:
       "House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3 House of the dragon season-3",
-  },
-  {
-    id: "15",
-    img_url:
-      "https://assets-prd.ignimgs.com/2022/02/18/house-of-the-dragon-button-02-1645217002655.jpg",
-    description: "House of the dragon season-4",
   },
 ];
 
