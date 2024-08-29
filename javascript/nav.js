@@ -6,8 +6,10 @@ window.addEventListener("scroll", fixNav);
 function fixNav() {
   if (window.scrollY > nav.offsetHeight) {
     nav.classList.add("active");
+    mobileNav.style.display = "none";
   } else {
     nav.classList.remove("active");
+    mobileNav.style.display = "none";
   }
 }
 
@@ -37,16 +39,16 @@ function checkMobileNavOnLoad() {
 
   if (windowWidth < 768) {
     nav.style.display = "none";
+    mobileNav.style.display = "flex";
   } else {
     nav.style.display = "flex";
+    mobileNav.style.display = "none";
   }
 }
 
 checkMobileNavOnLoad();
 
 toggleMobileNav = () => {
-  console.log("clicked");
-
   if (mobileNav.classList.contains("active")) {
     mobileNav.classList.remove("active");
   } else {

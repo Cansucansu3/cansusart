@@ -58,10 +58,10 @@ nav a {
   min-width: 100px;
 }
 
-/* nav a:hover {
-  background-color: #fff;
+nav a:hover {
+  background-color: #ffffff00;
   color: #7385ef;
-} */
+}
 
 nav.active {
   background-color: #fff;
